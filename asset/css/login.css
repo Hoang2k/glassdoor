@@ -1,0 +1,118 @@
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.header{
+    height: 48px;
+    background-color: #fff;
+    border-bottom: 1px   solid #c2c2c2;;
+}
+.header-logo{
+    margin-left: 16px;}
+.app{
+    background: #eaeaea;
+
+}
+.login-form{
+    width: 342px;
+    height: 550px;
+    background: #fff;
+    margin:  auto;
+    
+}
+.content{padding-top: 13px; }
+.login-form__header{ display: flex;justify-content: center;padding-top: 12px;}
+.login-form__heading{font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #20262e;  text-align: center;}
+    .login-form__policy p{font-size: 12px;
+        line-height: 18px;
+        text-align: center; padding-left: 0;}
+
+.login-form__policy p a{text-decoration: none;cursor: pointer;}
+.social button{align-items: center; border: 1px solid #c2c2c2;justify-content: center;padding: 0 16px; height: 40px;
+border-radius: 2px;font-weight: 700; font-size: 15px;width: 100%;
+}
+.social-facebook__btn{ background-color: #4267b2;color: #ffff;border: none;}
+.google-btn{ margin: 8px 0; color: #dc4e41;background-color: #ffff; }
+.apple-btn{ padding: 0 16px;background-color: #ffff;}
+.google-btn__span { margin-left: -20px;margin-right: 7px; }
+.social-apple{
+ 
+}
+
+.SVGInline-svg{ margin-bottom: 6px;}
+.fb-logo{margin-left: -2px;line-height: 35px;}
+.fb-continue{ line-height: 38px;margin-left: 7px;}
+.apple-logo{ margin-left: -32px;margin-right: 7px;}
+.container {
+    padding: 0 50px;
+    margin-top: 12px;
+}
+.orSeparator{
+   display: flex;
+}
+.my-std{margin-top: 16px !important;
+       margin-bottom: 16px !important;}
+.orSeparator .orSeparator-left{
+    border:1px solid #c4c7cc;
+    width: 100%;
+    height: 2px; 
+}
+.orSeparator-right{ height: 2px;
+    border:1px solid #c4c7cc;
+    width: 100%;top: 5;
+}
+.orSeparator-between{ padding-left: 8px;padding-right: 8px;border-width: 0;top: 4px;position: relative;font-size: 15px;font-weight: 500;}
+.input{ width: 100%; height: 45px;}
+.input-email{ margin-bottom: 8px;}
+.login-form__singn{ display: flex;
+    justify-content: center;}
+.singn-btn{ margin: 15px auto; width: 178px; height: 40px; background-color:  rgb(24, 97, 191);
+border: none;border-radius: 2px; color: rgb(255, 255, 255);
+}
+.login-form__group label{ 
+    
+}
+.login-form__forgot{display: flex;justify-content: center;}
+.forgot-btn{background: none;color: rgb(24, 97, 191);border: none; font-size: 15px;cursor: pointer;}
+/*Mobile */
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 33px;
+        margin-top: 12px;
+    }
+    .google-btn__span { margin-left: -40px;margin-right: 25px; }
+    .apple-logo{ margin-left: -50px;margin-right: 25px;}
+    .fb-logo{margin-left: -24px;  margin-right: 15px  ;}
+}
+.footer{
+    background-color: #404040;
+   color: #ffff;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-description{
+    padding-left: 24px;padding-right: 24px;
+   padding-top: 20px;
+    text-align: center;
+}
+.footer-description p {
+    margin-bottom: 0;
+    line-height: 22px;
+} 
+.login-form__aside{ text-align: center;
+   margin-top: 25px;}
+.footer-link{
+    text-align: center;
+   
+    height: 65px;
+}
+.footer-link a{
+  text-decoration: none;color: #ffff;font-size: 15px;
+}
+ 
